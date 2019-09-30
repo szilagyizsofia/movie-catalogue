@@ -7,7 +7,7 @@
 ### Bejelentkezett felhasználó
 
 - Új színész/rendező/film létrehozása
-- Filmek listázása
+- Filmek listázása, akár különbőző szempontok alapján rendezve
 - Film jellemzőinek, és a vélemények olvasása
 - Keresés a filmek között különböző szempontok szerint
 - Film értékelése
