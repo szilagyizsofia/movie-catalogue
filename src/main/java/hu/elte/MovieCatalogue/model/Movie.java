@@ -32,7 +32,7 @@ public class Movie extends BaseEntity{
    
     @Column
     @NotNull
-    String name;
+    String title;
     
     @JoinTable
     @ManyToMany
