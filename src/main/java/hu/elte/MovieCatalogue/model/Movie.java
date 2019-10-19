@@ -55,7 +55,7 @@ public class Movie extends BaseEntity{
     @Temporal(TemporalType.DATE)
     private Date releaseDate;
     
-    @JsonIgnore
+
     @OneToMany(mappedBy = "movie")
     private List<Review> reviews;
     

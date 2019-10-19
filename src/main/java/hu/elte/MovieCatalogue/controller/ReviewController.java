@@ -26,7 +26,7 @@ public class ReviewController {
     public List<Review> getAll() {
         return this.reviewRepository.findAll();
     }
-
+    
     @GetMapping("/{id}")
     public Optional<Review> get(@PathVariable Long id) {
 	return reviewRepository.findById(id);

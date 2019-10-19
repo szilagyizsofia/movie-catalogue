@@ -26,15 +26,16 @@ public class GenreController {
         return this.genreRepository.findAll();
     }
 
+    @GetMapping("/name/{name}")
+    public Genre getByName(@PathVariable String name) {
+	return genreRepository.findByName(name);
+    }
+    //  Alapmuveletek id alpján
     @GetMapping("/{id}")
     public Optional<Genre> get(@PathVariable Long id) {
 	return genreRepository.findById(id);
     }
     
-    @GetMapping("/name/{name}")
-    public Genre getByName(@PathVariable String name) {
-	return genreRepository.findByName(name);
-    }
     
     @DeleteMapping("/{id}")
     void deleteGenre(@PathVariable Long id) {

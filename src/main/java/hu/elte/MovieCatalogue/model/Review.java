@@ -5,9 +5,11 @@
  */
 package hu.elte.MovieCatalogue.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
@@ -35,10 +37,12 @@ public class Review extends BaseEntity {
     
     @ManyToOne
     @JoinColumn
+    @JsonIgnore
     public Movie movie;
     
     @ManyToOne
     @JoinColumn
+    
     public User user;
     
     
