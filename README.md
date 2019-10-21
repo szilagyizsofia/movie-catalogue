@@ -38,3 +38,14 @@
 - Felhasználóbarát, egyszerű, letisztult felület
 - Keresési eredmények gyors megjelenítése
 - Jelszavas azonosítás, jelszavak biztonságos tárolása
+
+## Szakterületi fogalomjegyzék
+
+- **katalógus:** Rendszerbe foglalt jegyzék, amely dolgokat rendezett egészbe foglal.
+
+## Szerepkörök
+
+- Bejelentkezett felhasználó
+- Vendég felhasználó
+- Moderátor
+- Adminisztrátor
