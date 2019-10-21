@@ -13,4 +13,6 @@ public interface ReviewRepository extends CrudRepository<Review, Long> {
     List<Review>findAll();
     List<Review> getAllByUser(User user);
     List<Review> getAllByMovie(Movie movie);
+    
+    List<Review> findAllByOrderByCreatedAtDesc();
 }

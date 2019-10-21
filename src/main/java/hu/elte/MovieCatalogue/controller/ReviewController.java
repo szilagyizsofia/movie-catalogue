@@ -23,9 +23,10 @@ public class ReviewController {
     ReviewRepository reviewRepository;
     
     @GetMapping("")
-    public List<Review> getAll() {
-        return this.reviewRepository.findAll();
+    public List<Review> getAllOrdered() {
+        return this.reviewRepository.findAllByOrderByCreatedAtDesc();
     }
+    
     
     @GetMapping("/{id}")
     public Optional<Review> get(@PathVariable Long id) {
@@ -36,7 +37,7 @@ public class ReviewController {
           reviewRepository.deleteById(id);
     }
 
-    @PostMapping("")
+    @PostMapping("/add")
     Review newReview(@RequestBody Review review) {
         return reviewRepository.save(review);
   }
