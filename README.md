@@ -80,3 +80,33 @@
 - service
   - MovieService
   - UserService
+  
+# Oldaltérkép
+* Főoldal
+* Filmek listázása
+* Értékelések listázása
+* Felhasználók listázása
+* Bejelentkezés
+* Kijelentkezés
+
+# Végpontok
+* `GET /` Főoldal
+* `GET /login`  Bejelentkező oldal
+* `POST /login` Bejelentkezés
+* `GET /register` Regisztrációs oldal
+* `POST /register` Regisztráció
+* `GET /logout` Kijelentkezés
+* `GET /user` Felhasználók listája
+* `GET /movies` Filmek listája
+* `GET /movies/search/:substr` Filmek keresése film cím részének alapján
+* `GET /movies/genres/:genre` Filmek keresése típus alapján
+* `GET /movies/actor/search/:name` Filmek keresése színész részneve alapján
+* `GET /movies/director/search/:name` Filmek keresése rendező részneve alapján
+* `GET /movies/:id` Film keresése id alapán
+* `POST /movies/add` Film feltöltése 
+* `DELETE /movies/id` Film törlése id alapán
+* `GET /reviews` Értékelések listázása létrehozás alapján csökkenő sorrendben
+* `GET /reviews/:id` Érrtékelés keresése id alapán
+* `POST /reviews/add` Értékelés feltöltése 
+* `DELETE /reviews/:id` Film törlése id alapán
+
