@@ -115,3 +115,17 @@
 Regisztráció
 
 ![aszekvencia diagram](https://github.com/szilagyizsofia/movie-catalogue/blob/master/sequencediagram.png)
+
+# Fejlesztőkörnyezet
+
+## Felhasznált eszközök
+* [Git](https://git-scm.com/) verziókezelő
+* [Node.js](https://nodejs.org/en/) Javascript környezet
+* [AngularJS](https://angular.io/) Javascript keretrendszer
+* [Github](https://github.com/) projekt közzététele
+
+## Fejlesztőkörnyezet felállítása
+* Git verziókezelő telepítése
+* Node.js telepítése
+* Projekt klónozása git clone https://github.com/szilagyizsofia/movie-catalogue.git
+* App indítása: npm start
