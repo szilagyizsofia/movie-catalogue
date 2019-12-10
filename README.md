@@ -53,3 +53,30 @@
 ## Adatbázis terv
 
 ![adatbazis terv](https://github.com/szilagyizsofia/movie-catalogue/blob/master/Untitled.png)
+
+## Könyvtárstruktúra
+
+- controller
+  - ActorController
+  - DirectorController
+  - MovieController
+  - ReviewController
+  - UserController
+- model
+  - Actor
+  - BaseEntity
+  - Director
+  - Genre
+  - Movie
+  - Review
+  - User
+- repositories
+  - ActorRepository
+  - DirectorRepository
+  - GenreRepository
+  - MovieRepository
+  - ReviewRepository
+  - UserRepository
+- service
+  - MovieService
+  - UserService
