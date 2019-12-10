@@ -132,5 +132,5 @@ Regisztráció
 
 ## Telepítés és indítás
 
-* **Telepítés**: Az [Implementációban](Implementáció#fejlesztőkörnyezet-felállítása) megadottak alapján
+* **Telepítés**: Az Implementációban megadottak alapján
 * **Futtatás**: `nmp start` paranccsal, majd `http://localhost:4200`
