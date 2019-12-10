@@ -49,3 +49,7 @@
 - Vendég felhasználó
 - Moderátor
 - Adminisztrátor
+
+## Adatbázis terv
+
+![adatbazis terv](https://github.com/szilagyizsofia/movie-catalogue/blob/master/Untitled.png)
