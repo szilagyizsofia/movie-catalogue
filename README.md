@@ -110,3 +110,8 @@
 * `POST /reviews/add` Értékelés feltöltése 
 * `DELETE /reviews/:id` Film törlése id alapán
 
+# Egy végpont bemutatása
+
+Regisztráció
+
+![aszekvencia diagram](https://github.com/szilagyizsofia/movie-catalogue/blob/master/sequencediagram.png)
