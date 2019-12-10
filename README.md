@@ -129,3 +129,8 @@ Regisztráció
 * Node.js telepítése
 * Projekt klónozása git clone https://github.com/szilagyizsofia/movie-catalogue.git
 * App indítása: npm start
+
+## Telepítés és indítás
+
+* **Telepítés**: Az [Implementációban](Implementáció#fejlesztőkörnyezet-felállítása) megadottak alapján
+* **Futtatás**: `nmp start` paranccsal, majd `http://localhost:4200`
